@@ -33,8 +33,36 @@ body {
 #inner_container {
     margin: 10px;
 }
+.main_box {
+    width : 750px;
+}
+.description {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+.sub_title {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.content {
+    overflow: hidden;
+}
+.content .main_image_box {
+    float: left;
+    width: 275px;
+    margin-right: 10px;
+}
+.content .main_content {
+    font-size: 0.8em;
+    float: left;
+    width: 465px;
+}
 #footer {
-    
+    background-image: url(./images/footer.png);
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
 }
 </style>
 </head>
@@ -50,8 +78,28 @@ body {
             <li></li>
         </ul>
     </div>    
-    <div id="inner_container"></div>
-    <div id="footer"></div>    
+    <div id="key_image"><img src="./images/key_image.png"></div>
+    <div id="inner_container">
+        <div class="main_box">
+            <div><img src="./images/main_title.png"></div>
+            <div class="description">ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</div>
+            <div class="sub_title">小見出し</div>
+            <div class="content">
+                <div class="main_image_box"><img src="./images/main_img.png"></div>
+                <div class="main_content">ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。</div>
+            </div>
+        </div>
+        <div class="main_box">
+            <div><img src="./images/main_title.png"></div>
+            <div class="description">ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</div>
+            <div class="sub_title">小見出し</div>
+            <div class="content">
+                <div class="main_image_box"><img src="./images/main_img.png"></div>
+                <div class="main_content">ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。ここに写真の説明がはいります。</div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">All Rights Reserved By Me</div>    
 </div>
 </body>
 </html>
